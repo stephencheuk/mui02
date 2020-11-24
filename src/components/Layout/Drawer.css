@@ -1,0 +1,46 @@
+.Drawer{
+  background-color: white;
+  min-width: 250px;
+  padding-top: 48px;
+}
+.DrawerAvatar{
+  padding: 10px;
+}
+
+.Avatar{
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.DrawerItems{
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.DrawerItems > li{
+  border-bottom: 1px solid #f0f0f0;
+  height: 40px;
+  padding-left: 10px;
+}
+
+/*
+
+// xs --- Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// sm --- Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// md --- Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// lg --- Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// xl --- Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/

@@ -1,0 +1,84 @@
+.Appbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 48px;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-center: space-between;
+  z-index: 1201;
+}
+
+.Appbar .AppbarMenu{
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  position: relative;
+}
+
+.Appbar .Menu{
+  z-index: 1;
+}
+
+.Appbar .Logo{
+  width: 202px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  !background-color: red;
+}
+.Appbar .Logo > div{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: -50%;
+  width: 100%;
+}
+.Logo .LogoImg{
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.Appbar > div.AppbarTitle{
+  flex: 8;
+  display: flex;
+  align-items: center;
+}
+
+.Appbar > div.AppbarOption{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+}
+
+.Appbar > .AppbarLeft{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Appbar > .AppbarTop{
+  flex: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Appbar > .AppbarRight{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 48px;
+}
+
+.Appbar > .AppbarLeft,
+.Appbar > .AppbarTop,
+.Appbar > .AppbarRight{
+  border: 1px solid black;
+}
